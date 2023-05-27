@@ -1,0 +1,256 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(27, 51, 17) url(images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+a {
+  color: #0b971e;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #087712;
+  transition: all 0.5s;
+}
+
+img {
+  margin: 5px 20px 10px 0;
+  float: left;
+}
+
+iframe {
+  margin: 20px 0;
+}
+
+#wrap {
+  position: relative;
+  background: white;
+  width: 960px; 
+  margin: 0 auto;
+  min-height: 100%;
+  z-index: 9999;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  height: 150px;
+  background: #489a34;
+  display: table;
+  vertical-align: middle;
+  box-shadow: 0px 5px 5px #aaa;
+}
+
+#header h1 {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#content {
+  padding: 0px 40px 120px;
+}
+
+img.parrot {
+  width: 200px;
+  height: auto;
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+#footer {
+  clear: both;
+  width: 960px;
+  vertical-align: bottom;
+  height: 60px;
+  background-color: #087712;
+  background-size: cover;
+  margin: 0 auto;
+  height: 80px;
+}
+
+#footer p {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  color: #fff;
+  line-height: 80px;
+  margin: 0px;
+  text-align: center;
+}
+
+#parallax-bg1 {
+  z-index: 3;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 940px;
+  margin-left: -470px;
+}
+#bg1-1 {
+  position: absolute;
+  top: 640px;
+  left: 100%;
+  width: 250px;
+}
+#bg1-2 {
+  position: absolute;
+  top: 400px;
+  width: 150px;
+}
+#bg1-3 {
+  position: absolute;
+  top: 900px;
+  width: 300px;
+}
+#bg1-4 {
+  position: absolute;
+  top: 1120px;
+  left: 100%;
+  width: 220px;
+}
+
+#parallax-bg2 {
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 120%;
+}
+#bg2-1 {
+  position: absolute;
+  top: 0px;
+  left: -50%;
+  width: 200%;
+}
+#bg2-2 {
+  position: absolute;
+  top: 300px;
+  left: 1150px;
+}
+#bg2-3 {
+  position: absolute;
+  top: 543px;
+  left: -35px;
+}
+#bg2-4 {
+  position: absolute;
+  top: 1180px;
+  left: 250px;
+}
+#bg2-5 {
+  position: absolute;
+  top: 900px;
+  left: 890px;
+}
+
+#parallax-bg3 {
+  z-index: 4;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 1200px;
+  margin-left: -600px;
+}
+#bg3-1 {
+  position: absolute;
+  top: 185px;
+  left: -20%;
+  width: 110px;
+}
+#bg3-2 {
+  position: absolute;
+  top: 812px;
+  left: 110%;
+  width: 120px;
+}
+#bg3-3 {
+  position: absolute;
+  top: 300px;
+  left: 100%;
+  width: 90px;
+}
+#bg3-4 {
+  position: absolute;
+  top: 850px;
+  left: -20%;
+  width: 100px;
+}
+
+#parallax-bg4 {
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-left: 0;
+}
+
+#bg4-1 {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 300%;
+}
+
+nav#primary {
+  z-index: 999999;
+  position: fixed;
+  top: 50%;
+  right: 16px;
+  margin-top: -40px;
+}
+nav#primary li {
+  position: relative;
+  height: 20px;
+}
+nav#primary a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+  background: #99e874;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 10px;
+}
+nav#primary a:hover,
+nav#primary a.active {
+  background: rgb(229, 255, 221);
+  opacity: 1;
+  transition: all 0.5s;
+}
+nav#primary h1 {
+  position: absolute;
+  right: 25px;
+  top: -10px;
+  display: none;
+  font-size: 20px;
+  padding: 4px 20px 4px 7px;
+  font-family: Arial, Helvetica, Sans-serif;
+  color: #288628;
+  white-space: nowrap;
+  z-index: 9999;
+}
+
+.btn {
+    margin-left: 30px;
+}
+
+ul li {
+list-style-type: none;
+}
